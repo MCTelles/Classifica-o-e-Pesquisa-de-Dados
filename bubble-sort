@@ -1,0 +1,29 @@
+def bubble(a):
+    n = len(a)
+    for i in range(n):
+        for j in range(n - 1):
+            if a[j] > a[j + 1]:
+                aux = a[j]
+                a[j] = a[j + 1]
+                a[j + 1] = aux
+
+    return a
+
+a = [11, 33, 22, 55, 66]
+ordenada = bubble(a)
+print(ordenada)
+
+#inversa
+a_inversa = [66, 55, 33, 22, 11]
+inversa = bubble(a_inversa)
+print(inversa)
+
+#repetidos
+a_repetidos = [11, 22, 22, 33, 11]
+repetidos = bubble(a_repetidos)
+print(repetidos)
+
+#aleatórios
+a_aleatorios = [42, 13, 99, 8, 27]
+aleatorios = bubble(a_aleatorios)
+print(aleatorios)
