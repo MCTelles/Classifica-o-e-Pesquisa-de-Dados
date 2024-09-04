@@ -57,4 +57,15 @@ O Insertion Sort é melhor que o Bubblesort porque realiza
 menos trocas e comparações, especialmente em listas quase 
 ordenadas, tornando-o mais eficiente.
 
+SETE---
 
+7. O pivô recomendado para o método Quicksort é:
+C) O elemento central
+Justificativa: O uso do elemento central como pivô tende a reduzir a probabilidade de dividir a lista em partes extremamente desiguais, o que pode ocorrer se o primeiro ou o último elemento for escolhido, especialmente em listas já ordenadas ou quase ordenadas.
+ompletamente ordenado.
+
+OITO---
+
+8. Suponha que você tenha a seguinte lista para realizar ordenação: [19, 1, 9, 7, 3, 10, 13, 15, 8, 12]. Qual opção representa a lista parcialmente ordenada após três passos completos de Bubble Sort?
+e) [1, 3, 7, 9, 8, 10, 12, 13, 15, 19]
+Justificativa: O Bubble Sort realiza múltiplas passagens pela lista, movendo os maiores elementos para o final da lista a cada passagem. Após três passagens completas, os maiores elementos (19, 15, 13) estarão no final da lista, mas o restante dos elementos ainda não estará c
