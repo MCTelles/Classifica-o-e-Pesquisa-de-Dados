@@ -1,0 +1,60 @@
+QUATRO---
+O shellsort é uma ótima opção para arquivos de tamanho
+moderado e sua implementação é simples e requer uma 
+quantidade de código pequena.
+
+(a) Verdadeira
+(b) Falsa
+
+R: 
+---------------------
+
+(a) Verdadeira
+
+O Shellsort é um algoritmo de ordenação 
+eficiente para arquivos de tamanho moderado
+
+
+
+CINCO---
+
+No Quicksort, a pior escolha para pivô é:*
+a) O extremo de uma lista já ordenada
+b) O elemento inicial da lista não ordenada
+c) O menor elemento da lista não ordenada
+d) O elemento que esteja no "meio" da lista já ordenada
+
+Justifique sua resposta:
+
+R:
+---------------
+
+a) O extremo de uma lista já ordenada
+
+A pior escolha de pivô no Quicksort é o extremo de uma 
+lista já ordenada porque isso resulta em partições muito 
+desbalanceadas, onde uma partição contém quase todos os 
+elementos e a outra fica vazia. Esse desequilíbrio leva 
+ao pior desempenho do Quicksort, com complexidade O(n²).
+
+SEIS----
+
+O algoritmo Insertion Sort possui comportamento 
+melhor do que o método da bolha (Bubblesort). 
+Esta afirmação é:
+
+(a) Verdadeira
+(b) Falsa
+
+Justifique sua resposta:
+
+R:
+----------------
+
+(a) Verdadeira
+
+O Insertion Sort é melhor que o Bubblesort porque realiza 
+menos trocas e comparações, especialmente em listas quase 
+ordenadas, tornando-o mais eficiente.
+
+
