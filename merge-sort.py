@@ -1,3 +1,4 @@
+import datetime
 def merge(v, ini, meio, fim):
     p1 = ini
     p2 = meio + 1
@@ -30,5 +31,10 @@ def merge(v, ini, meio, fim):
 
 
 v = [1,6,3,4,5,8]
+tempoInicial = datetime.datetime.now()
 merge(v, 0, 2, 4)
+tempoFinal = datetime.datetime.now()
+soma = tempoFinal - tempoInicial
+print(soma)
+
 print(v)
