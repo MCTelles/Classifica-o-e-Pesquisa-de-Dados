@@ -1,0 +1,45 @@
+# Implementar os algoritmos Quick Sort e o ShellSort
+import random
+import datetime
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        pivo = arr[len(arr) // 2]
+        esquerda = [x for x in arr if x < pivo]
+        direita = [x for x in arr if x > pivo]
+        return quicksort(esquerda) + quicksort(direita)
+
+# Exemplo de uso
+arr = [3, 6, 8, 10, 1, 2, 1]
+print("Array original:", arr)
+tempoInicial = datetime.datetime.now()
+sorted_arr = quicksort(arr)
+tempoFinal = datetime.datetime.now()
+soma = tempoFinal -tempoInicial
+print(soma)
+print("Array ordenado:", sorted_arr)
+
+# -------------------------------------------------------------------------
+lista_ordenada = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+sorted_arr = quicksort(lista_ordenada)
+print("Array ordenado:", sorted_arr)
+
+
+
+# -------------------------------------------------------------------------
+lista_inversa = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+sorted_arr = quicksort(lista_inversa)
+print("Array ordenado:", sorted_arr)
+
+
+# -------------------------------------------------------------------------
+lista_repetidos = [5, 1, 3, 5, 2, 5, 4, 1, 3, 5]
+sorted_arr = quicksort(lista_repetidos)
+print("Array ordenado:", sorted_arr)
+
+
+# -------------------------------------------------------------------------
+lista_aleatoria = random.sample(range(1, 11), 10)
+sorted_arr = quicksort(lista_aleatoria)
+print("Array ordenado:", sorted_arr)
