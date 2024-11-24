@@ -2,7 +2,7 @@ import gameStore
 import time
 import os
 import addGames
-
+# Trabalho feito por Samuel e Marcelo
 
 def main():
     store = gameStore.GameStore()
